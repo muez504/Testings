@@ -1,0 +1,16 @@
+
+.intro { /*we can also use # instead of the .*/ 
+    color: purple;
+    background-color:white;
+   }
+.mine{
+  color: blue;
+  background-color: white;
+}
+h1,p {
+  color: black;
+}
+
+li strong {/* we can only target using strong if it is inside a list*/
+  color: purple;
+} 

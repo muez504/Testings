@@ -1,0 +1,53 @@
+p {
+    margin: 10px 20px 20px 10px;/* top , right , bottom,left order */
+    border: 0.5px solid black;
+    padding: 4px 7px 12px 7px;
+    box-sizing: border-box;
+  }
+  .box {
+    border: 2px solid blue;/* try with out the solid word*/
+    width: 50%;
+    background-color: bisque;
+    background-image: url('https://sololearnassets.azureedge.net/sl-logo.png');
+    background-repeat: repeat-y; 
+    background-position: center;
+    background-size: contain;
+  } 
+  .box2
+  {
+    border: 3px solid red;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 20px;/* try with out this*/
+    background-color: pink;
+    background-image: url('https://thumbs.dreamstime.com/b/abstract-background-beautiful-unique-design-37263623.jpg');
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: contain;
+  }
+  .box3
+  {
+    border: 50px solid black;/* try for dotted, dashed, solid, double, groove, ridge, inset, outset*/
+    border-radius: 100px;
+    background-color: gray;
+    background-image: url('https://thumbs.dreamstime.com/b/sexy-beautiful-redhead-girl-long-hair-perfect-woman-portrait-black-background-gorgeous-hair-deep-big-blue-eyes-natural-94328794.jpg');
+    background-repeat: repeat-y;  
+    background-position: center;
+    background-size: contain;
+   }
+  
+  /** or 
+  p {
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px; 
+    border: 3px solid black;
+    padding: 4px 7px 4px 7px;
+  }
+  .box {
+    border: 3px solid red;
+  } **/

@@ -1,0 +1,18 @@
+ul {
+    list-style-type: circle; /*try upper/lower-alpha , upper/;lower-roman*/
+    list-style-position: inside;
+  }
+  a{
+    color: purple;
+    
+    /**a:link - defines the style for normal unvisited links.
+       a:visited - defines the style for visited links.
+       a:active - a link becomes active once you click on it.
+       a:hover - a link is hovered when the mouse is over it.
+    **/}
+    a:hover{
+        background-color:pink;
+        text-decoration: underline;
+    }
+
+   

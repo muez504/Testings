@@ -1,0 +1,117 @@
+body {
+    margin: 5px;
+}                      /* this targets all the tables target them differently*/
+ul {
+  padding: 0;
+  margin-top:20px;
+  width: 50%;
+}
+li {
+  display: inline;
+}
+a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 1%;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  width:30%;/* try with 50%*/
+  color: white;
+  background-color: green;
+}
+a:hover {
+  background: black;
+}
+
+table {
+    border-collapse: collapse;/* try with ou=t this
+     table cells have a space bitween by defoult */
+    width: 60%;
+   
+  }
+  td, th {
+    border:1px solid black;
+    text-align: center;
+    background-color: white;
+    padding: 6px;/* the table to be wide and narrow*/
+    /*background-color: pink;*/
+  } 
+  th
+   {
+      background-color: pink;
+  }
+  tr:nth-child(3) {                     /*  they are not working why try to check them again*/
+    background-color: #b0d1e4;
+}
+tr:nth-child(even) {
+    background-color: #b0d1e4;
+}
+tr:nth-child(odd) {
+    background-color: #6aabd1;
+}
+input {
+  border:1px solid black;
+  width:50%;
+  padding: 5px;
+}
+label {
+  font-weight: bold;
+  color:slateblue;
+}
+input[type='button'] {
+  border:none;
+  border-radius: 20px;
+  width:20%;
+  padding: 5px;
+  margin-left: 50px;
+  background-color: green;
+}
+input[type='text'], input[type='email'] {
+  border:1px solid black;
+  width:50%;
+  padding: 5px;
+  color: green;
+  font-weight: bold;
+}
+article {
+  background-color: blueviolet;
+  color: white;
+  padding: 5px;
+  margin: 10px;
+  width: 50%;
+  flex: 1;
+}
+section {
+  display: flex;
+}
+.special{
+  flex: 2;
+}
+header {
+  background-color: #77adda;
+  text-align: center;
+  padding: 20px;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.content {
+  background-color: #2ca152;
+  color: white;
+  padding: 20px;
+  height: 200px;
+  flex: 3;
+}
+.side {
+  background-color: #e6e6a5;
+  padding: 20px;
+  flex: 0;
+}
+main {
+  display: flex;
+}
